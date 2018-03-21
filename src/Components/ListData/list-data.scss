@@ -1,0 +1,25 @@
+.list-data {
+    padding: 15px;
+    color: white;
+
+    &-name {        
+        padding-bottom: 10px;                
+    }
+
+    &-go-back {
+        cursor: pointer;
+        padding-bottom: 20px;
+    }
+
+    &-contents-name {
+        padding: 10px 0;
+    }
+    
+
+    &-contents-values {
+        padding: 10px;
+        a {
+            color: #e4c0c0;
+        }
+    }
+}

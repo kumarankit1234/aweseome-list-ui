@@ -1,0 +1,14 @@
+.list {
+    padding-bottom: 15px;
+    color: white;
+
+    &-name {
+        cursor: pointer;
+        padding-bottom: 10px;
+        
+        &:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+    }
+}
